@@ -26,7 +26,7 @@ public class StartUI extends JFrame implements ActionListener {
         button[2] = new JButton("修改设备");
         button[3] = new JButton("删除设备");
 
-        //对按钮注册监听
+        //对按钮注册监听，this表示StartUI （implements ActionListener）类的对象
         button[0].addActionListener(this);
         button[1].addActionListener(this);
         button[2].addActionListener(this);
