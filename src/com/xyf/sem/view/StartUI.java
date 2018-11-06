@@ -1,4 +1,4 @@
-package com.xyf;
+package com.xyf.sem.view;
 
 import javax.swing.*;
 import java.awt.*;
